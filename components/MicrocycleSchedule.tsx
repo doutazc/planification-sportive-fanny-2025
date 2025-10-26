@@ -5,7 +5,7 @@ import { WEEKLY_SCHEDULE } from '../constants';
 const MicrocycleSchedule: React.FC = () => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg h-full">
-      <h2 className="text-xl font-bold text-slate-800 mb-4">Microcycle Hebdomadaire Type</h2>
+      <h2 className="text-xl font-bold text-slate-800 mb-4">Microcycle hebdomadaire type</h2>
       <div className="space-y-4">
         {WEEKLY_SCHEDULE.map((item, index) => (
           <div key={index} className="p-3 border-l-4 rounded-r-md" style={{ borderColor: item.isOptional ? '#fbbf24' : '#14b8a6' }}>

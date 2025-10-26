@@ -5,7 +5,7 @@ import { GENERAL_PRINCIPLES } from '../constants';
 const GeneralPrinciples: React.FC = () => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg">
-      <h2 className="text-xl font-bold text-slate-800 mb-4">Principes Généraux de la Planification</h2>
+      <h2 className="text-xl font-bold text-slate-800 mb-4">Principes généraux de la planification</h2>
       <div className="space-y-4">
         {GENERAL_PRINCIPLES.map((principle, index) => (
           <div key={index}>

@@ -6,7 +6,7 @@ export const PLAN_PERIOD = "2025-2026";
 
 export const GENERAL_PRINCIPLES: GeneralPrinciple[] = [
   {
-    title: "Cycles de Périodisation",
+    title: "Cycles de périodisation",
     description: "Le macrocycle (6-12 mois) vise l'objectif final. Les mésocycles (2-6 semaines) ont des objectifs spécifiques (endurance, force). Les microcycles (4-14 jours) détaillent les séances quotidiennes."
   },
   {
@@ -32,47 +32,47 @@ export const MACROCYCLES: Macrocycle[] = [
     id: 1,
     title: "Macrocycle 1",
     period: "Août 2025 – Mars 2026",
-    goal: "Préparation et montée en puissance jusqu'aux Championnats Suisse Élite.",
+    goal: "Préparation et montée en puissance jusqu'aux championnats suisses élite.",
     mesocycles: [
       {
         id: 'aug25',
         title: "AOÛT 2025",
-        phase: "PHASE DE REPRISE / PRÉPARATION GÉNÉRALE",
+        phase: "Phase de reprise / Préparation générale",
         centralObjective: "Reconditionnement physique et reprise progressive.",
-        technicalPriorities: ["Régularité", "Placements", "Schémas simples"],
-        physicalPriorities: ["Endurance générale", "Gainage", "Reprise musculaire"],
+        technicalPriorities: ["régularité", "placements", "schémas simples"],
+        physicalPriorities: ["endurance générale", "gainage", "reprise musculaire"],
         keyEvents: ["Stage de reprise : Stage Espalion (10-16 août)"],
         planLogic: "Reprise en douceur pour reconstruire les bases physiques et techniques."
       },
       {
         id: 'sep-dec25',
         title: "SEPTEMBRE – DÉCEMBRE 2025",
-        phase: "PHASE A – MONTÉE EN PUISSANCE",
+        phase: "Phase A – Montée en puissance",
         centralObjective: "Stabiliser le niveau de jeu, affiner la tactique.",
-        technicalPriorities: ["Services/remises", "Adaptation aux styles adverses", "Variations de rythme", "Gestion de l'échange", "Jeu court", "Anticipation"],
-        physicalPriorities: ["Explosivité des jambes", "Vitesse de déplacement", "Force spécifique", "Puissance", "Récupération", "Vitesse", "Relâchement"],
-        keyEvents: ["N1 J1-J6 (sept-déc)", "Tournoi de Bernex (4-5 oct)", "ETTU Open de Belgique (10-13 nov)", "Championnat AGTT (30 nov)", "ETTU Open de Finlande (4-7 déc)"],
+        technicalPriorities: ["services/remises", "adaptation aux styles adverses", "variations de rythme", "gestion de l'échange", "jeu court", "anticipation"],
+        physicalPriorities: ["explosivité des jambes", "vitesse de déplacement", "force spécifique", "puissance", "récupération", "vitesse", "relâchement"],
+        keyEvents: ["N1 J1-J6 (sept-déc)", "Tournoi de Bernex (4-5 oct)", "ETTU Open de Belgique (10-13 nov)", "Championnat AGTT (30 nov)"],
         planLogic: "Montée en puissance progressive avec les premières compétitions comme support."
       },
       {
         id: 'jan26',
         title: "JANVIER 2026",
-        phase: "PHASE DE TRANSITION / PRÉ-COMPÉTITIVE",
+        phase: "Phase de transition / Pré-compétitive",
         centralObjective: "Relancer l'intensité après la coupure de fin d'année.",
-        technicalPriorities: ["Jeu dirigé", "Schémas offensifs"],
-        physicalPriorities: ["Explosivité courte distance", "Vitesse"],
-        keyEvents: ["Camp E/T4/T3 (STT) (2-5 janvier)", "N1 J7 (10 janvier)"],
-        planLogic: "\"Reset\" intensif après la coupure pour préparer la Phase B."
+        technicalPriorities: ["jeu dirigé", "schémas offensifs"],
+        physicalPriorities: ["explosivité courte distance", "vitesse"],
+        keyEvents: ["Camp E/T4/T3 (STT) (2-5 janvier)", "N1 J7 (10 janvier)", "WTT Feeder à Lille (27-31 janvier)"],
+        planLogic: "\"Reset\" intensif après la coupure pour préparer la phase B."
       },
       {
         id: 'feb-mar26',
         title: "FÉVRIER – MARS 2026",
-        phase: "PHASE B – PIC 1 (CHAMPIONNATS SUISSE ÉLITE)",
-        centralObjective: "Préparer un double enjeu (Phase B en France et Championnats Suisse Élite).",
-        technicalPriorities: ["Points forts tactiques", "Gestion de la pression", "Gestion du stress"],
-        physicalPriorities: ["Force spécifique", "Décharge progressive", "Explosivité maximale (affûtage)"],
-        keyEvents: ["N1 J1-J2 Phase B (7 fév et 7 mars)", "Championnats Suisse Élite (21-22 mars)"],
-        planLogic: "Premier pic ciblé sur les Championnats Suisse Élite."
+        phase: "Phase B – Pic 1 (Championnats suisses élite)",
+        centralObjective: "Préparer un double enjeu (phase B en France et championnats suisses élite).",
+        technicalPriorities: ["points forts tactiques", "gestion de la pression", "gestion du stress"],
+        physicalPriorities: ["force spécifique", "décharge progressive", "explosivité maximale (affûtage)"],
+        keyEvents: ["N1 J1-J2 Phase B (7 fév et 7 mars)", "Championnats suisses élite (21-22 mars)"],
+        planLogic: "Premier pic ciblé sur les championnats suisses élite."
       }
     ]
   },
@@ -80,43 +80,43 @@ export const MACROCYCLES: Macrocycle[] = [
     id: 2,
     title: "Macrocycle 2",
     period: "Avril – Juin 2026",
-    goal: "Maintien et préparation finale pour les Titres N1.",
+    goal: "Maintien et préparation finale pour les titres N1.",
     mesocycles: [
       {
         id: 'apr-may26',
         title: "AVRIL – MAI 2026",
-        phase: "PHASE DE MAINTIEN / AJUSTEMENTS",
+        phase: "Phase de maintien / Ajustements",
         centralObjective: "Continuité de performance, éviter le surmenage.",
-        technicalPriorities: ["Variations", "Lecture du jeu", "Consolidation des schémas", "Mise en confiance"],
-        physicalPriorities: ["Maintien de la puissance et de l'endurance spécifique", "Maintien de l'explosivité"],
+        technicalPriorities: ["variations", "lecture du jeu", "consolidation des schémas", "mise en confiance"],
+        physicalPriorities: ["maintien de la puissance et de l'endurance spécifique", "maintien de l'explosivité"],
         keyEvents: ["N1 J4-J5 Phase B (11 avril et 9 mai)"],
         planLogic: "Gestion fine des charges et maintien de la forme entre les deux pics."
       },
       {
         id: 'jun26',
         title: "JUIN 2026",
-        phase: "PIC 2 (TITRES N1 FRANCE)",
+        phase: "Pic 2 (Titres N1 France)",
         centralObjective: "Atteindre la performance maximale.",
-        technicalPriorities: ["Jeu sous pression", "Scénarios décisifs"],
-        physicalPriorities: ["Décharge puis intensité maximale (affûtage)"],
+        technicalPriorities: ["jeu sous pression", "scénarios décisifs"],
+        physicalPriorities: ["décharge puis intensité maximale (affûtage)"],
         keyEvents: ["N1 J6-J7 Phase B (30 mai et 6 juin)", "Titres N1 (19-21 juin)"],
-        planLogic: "Deuxième pic de forme pour les Titres en N1 France."
+        planLogic: "Deuxième pic de forme pour les titres N1 France."
       },
     ]
   },
   {
       id: 3,
-      title: "Bilan et Repos",
+      title: "Bilan et repos",
       period: "Juillet 2026",
       goal: "Repos actif et bilan de la saison.",
       mesocycles: [
         {
             id: 'jul26',
             title: "JUILLET 2026",
-            phase: "REPOS ACTIF",
+            phase: "Repos actif",
             centralObjective: "Récupération, bilan de la saison.",
-            technicalPriorities: ["Travail léger", "Jeu plaisir", "Relâchement"],
-            physicalPriorities: ["Cross-training (autres sports)", "Récupération"],
+            technicalPriorities: ["travail léger", "jeu plaisir", "relâchement"],
+            physicalPriorities: ["cross-training (autres sports)", "récupération"],
             keyEvents: [],
             planLogic: "Récupération physique et mentale avant la prochaine saison."
         }
@@ -135,7 +135,7 @@ export const WEEKLY_SCHEDULE: WeeklyScheduleItem[] = [
 ];
 
 export const PERFORMANCE_REVIEW_DATA: PerformanceReview = {
-  title: "Performances Récentes et Ajustements (WTT Metz 2025)",
+  title: "Performances récentes et ajustements (WTT Metz 2025)",
   intro: "Les résultats du WTT Metz 2025 ont révélé plusieurs points pour Fanny:",
   points: [
     { title: "Résultats", description: "Défaite en poule (simples) et au 1er tour (double mixte)." },
@@ -168,23 +168,5 @@ export const IconBolt = ({ className }: { className?: string }) => (
 export const IconTrophy = ({ className }: { className?: string }) => (
     <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 11l3-3m0 0l3 3m-3-3v8m0-13.5a9 9 0 110 18 9 9 0 010-18z" />
-    </svg>
-);
-
-export const IconChatBubble = ({ className }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-    </svg>
-);
-
-export const IconSend = ({ className }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-    </svg>
-);
-
-export const IconClose = ({ className }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
     </svg>
 );

@@ -28,13 +28,13 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
         <div className="p-4 md:p-6 border-t border-slate-200 animate-fade-in-down">
           <div className="space-y-4">
             <div>
-              <h4 className="font-bold text-slate-700">Objectif Central:</h4>
+              <h4 className="font-bold text-slate-700">Objectif central :</h4>
               <p className="text-slate-600">{mesocycle.centralObjective}</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <h4 className="font-bold text-slate-700 mb-2">Priorités Techniques:</h4>
+                <h4 className="font-bold text-slate-700 mb-2">Priorités techniques :</h4>
                 <ul className="list-none space-y-1">
                   {mesocycle.technicalPriorities.map((item, index) => (
                     <li key={index} className="flex items-start">
@@ -45,7 +45,7 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold text-slate-700 mb-2">Priorités Physiques:</h4>
+                <h4 className="font-bold text-slate-700 mb-2">Priorités physiques :</h4>
                 <ul className="list-none space-y-1">
                   {mesocycle.physicalPriorities.map((item, index) => (
                     <li key={index} className="flex items-start">
@@ -59,7 +59,7 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
 
             {mesocycle.keyEvents.length > 0 && (
               <div>
-                <h4 className="font-bold text-slate-700 mb-2">Stages & Compétitions Clés:</h4>
+                <h4 className="font-bold text-slate-700 mb-2">Stages & compétitions clés :</h4>
                 <ul className="list-none space-y-1">
                   {mesocycle.keyEvents.map((item, index) => (
                     <li key={index} className="flex items-start">
@@ -72,7 +72,7 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
             )}
 
             <div className="pt-2">
-                <h4 className="font-bold text-slate-700">Logique du Plan:</h4>
+                <h4 className="font-bold text-slate-700">Logique du plan :</h4>
                 <p className="text-slate-600 italic">"{mesocycle.planLogic}"</p>
             </div>
           </div>
