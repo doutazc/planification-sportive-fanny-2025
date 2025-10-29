@@ -12,10 +12,10 @@ interface MesocycleCardProps {
 const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, onToggle }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out">
-      <button onClick={onToggle} className="w-full text-left p-4 bg-slate-50 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-teal-500">
+      <button onClick={onToggle} className="w-full text-left p-4 bg-slate-50 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-orange-400">
         <div className="flex justify-between items-center">
           <div>
-            <p className="text-sm font-semibold text-teal-600 uppercase tracking-wider">{mesocycle.title}</p>
+            <p className="text-sm font-semibold text-orange-400 uppercase tracking-wider">{mesocycle.title}</p>
             <h3 className="text-lg font-bold text-slate-800">{mesocycle.phase}</h3>
           </div>
           <svg className={`w-6 h-6 text-slate-500 transform transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -38,7 +38,7 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
                 <ul className="list-none space-y-1">
                   {mesocycle.technicalPriorities.map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <IconTarget className="w-5 h-5 text-teal-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <IconTarget className="w-5 h-5 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
                       <span className="text-slate-600">{item}</span>
                     </li>
                   ))}
@@ -49,7 +49,7 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
                 <ul className="list-none space-y-1">
                   {mesocycle.physicalPriorities.map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <IconBolt className="w-5 h-5 text-amber-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <IconBolt className="w-5 h-5 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
                       <span className="text-slate-600">{item}</span>
                     </li>
                   ))}
@@ -63,7 +63,7 @@ const MesocycleCard: React.FC<MesocycleCardProps> = ({ mesocycle, isExpanded, on
                 <ul className="list-none space-y-1">
                   {mesocycle.keyEvents.map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <IconTrophy className="w-5 h-5 text-indigo-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <IconTrophy className="w-5 h-5 text-orange-400 mr-2 flex-shrink-0 mt-0.5" />
                       <span className="text-slate-600">{item}</span>
                     </li>
                   ))}

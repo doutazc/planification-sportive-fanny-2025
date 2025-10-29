@@ -9,7 +9,7 @@ const GeneralPrinciples: React.FC = () => {
       <div className="space-y-4">
         {GENERAL_PRINCIPLES.map((principle, index) => (
           <div key={index}>
-            <h3 className="font-semibold text-teal-700">{principle.title}</h3>
+            <h3 className="font-semibold text-orange-500">{principle.title}</h3>
             <p className="text-slate-600 text-sm">{principle.description}</p>
           </div>
         ))}

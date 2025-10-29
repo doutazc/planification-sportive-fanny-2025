@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 
 const ScrollToTopButton: React.FC = () => {
@@ -31,7 +32,7 @@ const ScrollToTopButton: React.FC = () => {
     <button
       type="button"
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 w-12 h-12 rounded-full bg-teal-600 text-white shadow-lg hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 flex items-center justify-center transition-opacity duration-300 ${
+      className={`fixed bottom-6 right-6 w-12 h-12 rounded-full bg-orange-400 text-white shadow-lg hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 flex items-center justify-center transition-opacity duration-300 ${
         isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}
       aria-label="Remonter en haut de la page"

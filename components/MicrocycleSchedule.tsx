@@ -8,7 +8,7 @@ const MicrocycleSchedule: React.FC = () => {
       <h2 className="text-xl font-bold text-slate-800 mb-4">Microcycle hebdomadaire type</h2>
       <div className="space-y-4">
         {WEEKLY_SCHEDULE.map((item, index) => (
-          <div key={index} className="p-3 border-l-4 rounded-r-md" style={{ borderColor: item.isOptional ? '#fbbf24' : '#14b8a6' }}>
+          <div key={index} className="p-3 border-l-4 rounded-r-md" style={{ borderColor: item.isOptional ? '#fbbf24' : '#94a3b8' }}>
             <h3 className="font-bold text-slate-700 flex items-center">
               {item.day}
               {item.isOptional && <span className="ml-2 text-xs font-medium bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">Facultatif</span>}

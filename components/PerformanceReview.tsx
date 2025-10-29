@@ -17,7 +17,7 @@ const PerformanceReview: React.FC = () => {
         ))}
       </div>
       
-      <h3 className="font-semibold text-teal-700 mb-2">Axes d'amélioration prioritaires :</h3>
+      <h3 className="font-semibold text-orange-500 mb-2">Axes d'amélioration prioritaires :</h3>
       <ul className="list-disc list-inside space-y-1 text-sm text-slate-600">
         {PERFORMANCE_REVIEW_DATA.focusAreas.map((area, index) => (
           <li key={index}>{area}</li>
